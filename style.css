@@ -1,0 +1,408 @@
+@font-face{
+  font-family:'IropkeBatangM'; /*글꼴*/
+  src: local('IropkeBatangM'),
+    url('IropkeBatangM.ttf') format('truetype');
+}
+
+body {
+    font-family: IropkeBatangM;
+    background-image: url(resource.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .file-upload {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10% 0;
+    border-radius: 10px;
+    background-color: #2a2335a8;
+    font-size: 1.2rem;
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  #loading {
+    display: none;
+    color: #ffffff;
+  }
+
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 2px #2c2828;
+    background-color: #ffffffda;
+  }
+  
+
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    line-height: 1.53;
+    color: #ffffff;
+  }
+  
+  .drag-text h3 {
+    width: 70%;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: IropkeBatangM;
+    font-size: 1.4rem;
+    line-height: 1.53;
+    color: #3a3a3b;
+    margin: 0 auto;
+  }
+  
+  .file-upload-image {
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #6d6d6d9f;
+    background-color: #6d6d6da6;
+    width: 30%
+  }
+  
+  .try-again-text {
+    display: block;
+    font-size: 0.8em;
+    text-align: center;
+    color: #ffffffa2;
+    padding: 4px 15px;
+  }
+
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+
+  .back{
+    background-color: #ffffff91;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 3%;
+    width: 80%;
+  }
+  
+  .nav-distance {
+    padding: 2.1% 7.7%;
+  }
+
+  .nav-item{
+    color: #ffffffa4
+  }
+
+  .navbar{
+    background-color: #c4bdbd27;
+  }
+
+  .navbar-light .navbar-brand{
+    font-family: IropkeBatangM;
+    line-height: 1.68;
+    text-align: left;
+    color: #ffffffd0;
+  }
+
+  .title {
+    font-family: IropkeBatangM;
+    line-height: 1.67;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffffc9;
+  }
+  
+  .subtitle {
+    margin: 0;
+    padding: 0;
+    font-family: IropkeBatangM;
+    line-height: 1.53;
+    text-align: center;
+    color: #ffffff6e;
+  }
+
+  .upload-text {
+    width: 50%;
+    font-family: IropkeBatangM;
+    font-size: 1.2rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+  }
+
+  .bar-container {
+    height: 2.7rem;
+  }
+
+  .label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+    color: #cec3c3;
+
+}
+
+.percent-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+  #label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.explain {
+  font-size: 1.1rem;
+  width: 90%;
+  margin: 0 auto;
+  color:#ffffff80;
+}
+
+  .Gryffindor-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #d4140d38;
+  }
+
+  .Gryffindor-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #D4140d;
+  }
+
+  .Gryffindor-title {
+    font-size: 2.5rem;
+    color: #D4140d;
+    font-weight: bolder;
+  }
+
+  .Gryffindor-subtitle {
+    font-size: 1.1rem;
+    color: #ffffffd2;
+  }
+
+  .Gryffindor-celeb {
+      color:#D4140d;
+      margin: 0 auto;
+      font-size: 1rem;
+      margin: 0 auto;
+      margin-top: 3%;
+      width: 90%;
+  }
+
+  .Ravenclaw-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #0298c156;
+  }
+
+  .Ravenclaw-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #0298C1;
+  }
+
+  .Ravenclaw-title {
+    font-size: 2.5rem;
+    color: #0298C1;
+    font-weight: bolder;
+  }
+
+  .Ravenclaw-subtitle {
+    font-size: 1.1rem;
+    color: #ffffffd2;
+  }
+
+  .Ravenclaw-celeb {
+      color:#0298C1;
+      margin: 0 auto;
+      font-size: 1rem;
+      margin-top: 3%;
+      width: 90%;
+  }
+
+  .Slytherin-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color:#1f6d1e6e;
+  }
+
+  .Slytherin-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color:#228E20;
+  }
+
+  .Slytherin-title {
+    font-size: 2.5rem;
+    color: #228E20;
+    font-weight: bolder;
+  }
+
+  .Slytherin-subtitle {
+    font-size: 1.1rem;
+    color: #ffffffd2;
+  }
+
+  .Slytherin-celeb {
+      color: #228E20;
+      font-size: 1rem;
+      margin: 0 auto;
+      margin-top: 3%;
+      width: 90%;
+  }
+
+  .Hufflepuff-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #e1b7116b;
+  }
+
+  .Hufflepuff-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #E1B811;
+  }
+
+  .Hufflepuff-title {
+    font-size: 2.5rem;
+    color: #E1B811;
+    font-weight: bolder;
+  }
+
+  .Hufflepuff-subtitle {
+    font-size: 1.1rem;
+    color: #ffffffd2;
+  }
+
+  .Hufflepuff-celeb {
+      color: #E1B811;
+      font-size: 1rem;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 3%
+  }
+
+  label {
+    cursor: pointer;
+    display: inline-block;
+    width: 90px;
+    height: 41px;
+    box-shadow: 0 0 0 8px #e5e9ea inset;
+    border-radius: 30px;
+    position: relative;
+  }
+
+  @media screen and (max-width: 600px) {
+    html{
+      font-size: 10px;
+    }
+    .navbar-brand{
+      font-size: 2rem;
+    }
+  }
